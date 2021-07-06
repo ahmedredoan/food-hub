@@ -5,6 +5,14 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
+h3{
+    font-weight: 700;
+    font-size: large;
+    font-style: italic;
+}
 .orange-color{
     color: orange;
 }
@@ -36,3 +44,29 @@ h1{
     background-repeat: no-repeat;
 
 }
+.recipe-area{
+    text-align: center;
+}
+.carts{
+    display: flex;
+}
+.cart{
+    width: 15%;
+    margin-left: 100px;
+    padding: 2% 2% 2% 2%;
+    border: 10px;
+    border-radius: 20px;
+    
+}
+#pictures{
+    height: 250px;
+    width: 250px;
+}
+
+
+.footani {
+    text-align: center;
+    background-color: darkgray;
+    margin-top: 18px;
+    padding: 20px;
+  }
